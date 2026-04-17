@@ -4,7 +4,7 @@ EDGE GATEWAY DOCKER MANUAL
 1. Install Docker & Docker Compose
 2. Extract this zip
 3. Run:
-   docker-compose up --build
+   docker compose up --build
 
 4. To test MQTT:
    mosquitto_sub -h localhost -t iot/device1/data
