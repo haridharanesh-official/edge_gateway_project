@@ -7,6 +7,7 @@ client = mqtt.Client(client_id=CLIENT_ID)
 
 def connect():
     client.connect(MQTT_BROKER, MQTT_PORT, 60)
+    client.loop_start()
 
 def publish(data):
     try:
